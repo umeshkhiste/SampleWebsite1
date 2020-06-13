@@ -1,0 +1,83 @@
+*{
+    font-family: 'Noto Serif', serif;
+    font-size: 22px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+h2{
+    color: red;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+h5{
+    color: red;
+}
+
+
+
+p{
+    color: red;
+}
+
+.fcontainer{
+    border: 2px solid blue;
+}
+
+#cont{
+    text-align: center;
+    margin: 10px;
+    /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+}
+
+.carousel-item{
+    /* height: 400px; */
+    opacity: .9;
+}
+
+.blog-footer{
+    text-align: center;
+}
+
+.container-fluid{
+    border: 2px solid red;
+}
+
+.pallalax{
+    background: url('static/img/bgfeature2.jpg')repeat fixed 100%;
+}
+
+.pallalax2{
+    background: url('static/img/bgfeature3.jpg')repeat fixed 100%;
+}
+
+.pallalax2-inner{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.heading{
+    background-color: steelblue;
+    padding: 10px;
+}
+
+.mgteam{
+    padding: 30px;
+}
+
+.col-lg-4{
+    padding: 45px 75px;   
+    text-align: center;
+}
+
+.my-4{
+    padding-top: 28px;
+    /* padding-right: 200px; */
+}

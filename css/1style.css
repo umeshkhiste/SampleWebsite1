@@ -1,0 +1,28 @@
+/* body{
+    background-color: #2b69af;
+} */
+
+/* .container{
+    background-color: rgb(86, 187, 60);
+} */
+
+
+/* .test1{
+    background-color: #74161b;
+    height: 50px;
+} */
+
+.cbox{
+    height: 550px;
+    width: 950px;
+    border: 2px solid red;
+}
+
+.sbox{
+    border: 2px solid blue;
+    text-align: justify;
+    background-color: salmon;
+}
+
+
+

@@ -1,0 +1,39 @@
+.cbox{
+    border: 2px solid red;
+}
+
+.arow{
+    border: 3px solid blue;
+}
+
+.adiv{
+    background-color: saddlebrown;
+    height: 50px;
+    color: white;
+}
+
+.bdiv{
+    background-color: rgb(45, 19, 139);
+    height: 50px;
+    color: white;
+}
+.cdiv{
+    background-color: rgb(16, 224, 96);
+    color: white;
+    height: 50px;
+}
+.ddiv{
+    background-color: rgb(218, 11, 11);
+    color: white;
+    height: 50px;
+}
+.ediv{
+    background-color: rgb(148, 231, 15);
+    color: white;
+    height: 50px;
+}
+.fdiv{
+    background-color: rgb(12, 6, 2);
+    color: white;
+    height: 50px;
+}

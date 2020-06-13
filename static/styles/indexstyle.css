@@ -1,0 +1,206 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.carousel-caption{
+    padding-bottom: 110px;
+}
+.navbar{
+    background-color: transparent;
+}
+
+.row{
+    color: blue;
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #0d10f0;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.gotopbtn.active{
+    bottom: 40px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.gotopbtn :hover{
+    color: white;
+}
+
+.carousel-item{
+   
+    opacity: .9;
+}
+
+.blog-footer{
+    text-align: center;
+}
+
+#color{
+    color:yellow; 
+}
+
+#cont1{
+    color:white; 
+    text-align: left;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#cont2{
+    color:white; 
+    text-align: right;
+}
+#cont3{
+    color:white; 
+    text-align: left;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#cont4{
+    color:white; 
+    text-align: right;
+}
+#cont5{
+    color:white; 
+    text-align: left;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#cont6{
+    color:white; 
+    text-align: right;
+}
+#cont7{
+    color:white; 
+    text-align: left;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#cont8{
+    color:white; 
+    text-align: right;
+}
+#cont9{
+    color:white; 
+    text-align: left;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#feature{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pallalax2{
+    background: url('/static/img/bgfeature3.jpg')no-repeat center center/cover  fixed;
+}
+
+.pallalax2-inner{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.pallalax2 .row,.aInfo, p, ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.heading{
+    background-color: steelblue;
+    padding: 10px;
+}
+
+.mgteam{
+    padding: 30px;
+}
+
+.col-lg-4{
+    padding: 45px 75px;   
+    text-align: center;
+}
+
+.my-4{
+    padding-top: 28px;
+
+}
+@media(max-width:300px){
+    body{
+        margin: 0;
+    }
+
+    .table{
+        text-align: center;
+        width: auto;
+    }
+    #ifsc{
+        text-align: center;
+    }
+    .mapSection{
+        width: auto;
+        /* height: 100px; */
+        padding: 50px;
+    }
+    .gotopbtn{
+        padding-right: 100px;
+    }
+    .carousel-inner{
+        margin: 20px 0 20px 0;
+    }
+
+    .gotopbtn{
+        width: 50px;
+        height: 50px;
+    }
+
+    .carousel-caption{
+        padding-bottom: 900px;
+    }
+
+    .gallery img{
+        max-width: 100%;
+        height: 150%;
+        object-fit: contain;
+    }
+}
